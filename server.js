@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
  });
  
  app.get('/login', function (req, res) {
-    res.sendFile(path.join(___dirname + '/login.html'));
+    res.sendFile(path.join(___dirname + '/contact.html'));
  });
 
 
